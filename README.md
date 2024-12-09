@@ -1,2 +1,3 @@
-# book_projects-alien_invasion
+# book_projects
 Writing projects from books
+* alien-invasion -- Alien shooter game using pygame
