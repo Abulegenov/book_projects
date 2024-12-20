@@ -1,5 +1,5 @@
 name: "ll_project"
-type: "python:3.13"
+type: "python:3.12"
 
 relationships:
     database: "db:postgresql"
@@ -16,7 +16,7 @@ web:
             passthru: true
         "/static":
             root: "static"
-            expries: 1h
+            expires: 1h
             allow: true
 
 #The size of the persistent disk of the application (in MB).
@@ -40,4 +40,3 @@ hooks:
         rm -rf logs
     deploy: |
         python manage.py migrate
-        
