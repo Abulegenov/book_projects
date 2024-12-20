@@ -1,0 +1,5 @@
+# Exclude vendor files and third-party libraries
+vendor/* linguist-vendored
+
+# Ignore all HTML files
+*.html linguist-documentation
